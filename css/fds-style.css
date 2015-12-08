@@ -1,0 +1,302 @@
+@font-face {
+    font-family: 'Kreon';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Kreon Regular'), local('Kreon-Regular'), url('../fonts/Kreon-Regular.ttf') format('truetype'), url('../fonts/Kreon-Regular.woff') format('woff');
+}
+
+h1, h2, h3 {
+        font-family: 'Kreon';
+        margin-bottom: 22px;
+        color: #06C;
+
+}
+
+.stepbox{
+    background-color: #f8f8f8;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+/*.glue-to-bottom{
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+}*/
+
+/* Wau Holland Logo Size (in Impressum) */
+.wau {
+    width: 18em;
+}
+
+
+.navbar-fds {
+    border: 0 !important;
+}
+
+.noticeable-break {
+  border: 2px solid #ccc;
+}
+
+.navbar-fds .navbar-brand {
+  font-size: 2.4em;
+  color: #06C;
+  font-family: 'Kreon', arial, serif;
+  background-image: url('../img/logo.png');
+    background-size: 36px auto;
+  background-repeat: no-repeat;
+  padding: 18px 15px 12px 60px;
+  background-position: 15px 11px;
+
+}
+
+.donation-banner {
+  z-index: 1001;
+  width: 100%;
+  color: #333;
+  background-color: #5cb85c;
+  padding: 10px 0 30px;
+  overflow:hidden;
+}
+
+.donation-banner a {
+  color: #fff;
+}
+
+.donation-banner a.btn {
+  color: inherit;
+}
+
+.donation-banner small {
+  font-size: 75%;
+}
+
+.donation-banner .action-links {
+  color: #fff;
+}
+
+.donation-top {
+  padding-top: 0;
+}
+
+.donation-banner h3 {
+  font-size: 20px;
+}
+
+.donation-banner .btn-success {
+  margin-top: 7px;
+}
+
+#close-donation {
+  position: absolute;
+  right: 10px;
+}
+
+@media screen and (min-width: 1200px) {
+  .donation-banner h3 {
+    font-size: 24px;
+  }
+}
+
+.donation-banner {
+  position: relative;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  .donation-top {
+    padding-top: 165px;
+  }
+  .donation-banner {
+    /* position: fixed; */
+  }
+  .donation-image {
+    display: block;
+    height: auto;
+    max-width: 100%;
+  }
+}
+
+.donatotron {
+  background-color: #fff;
+}
+
+.donation-nav.affix {
+    position: static;
+}
+
+/* Show and affix the side nav when space allows it */
+@media screen and (min-width: 992px) {
+  /* Widen the fixed sidebar */
+  .donation-nav.affix,
+  .donation-nav.affix-bottom {
+    width: 263px;
+  }
+  .donation-nav.affix {
+    position: fixed; /* Undo the static from mobile first approach */
+    top: 10px;
+    right: 83px;
+  }
+  .donation-nav.affix-bottom {
+    position: absolute; /* Undo the static from mobile first approach */
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* Widen the fixed sidebar again */
+  .donation-nav.affix-bottom,
+  .donation-nav.affix {
+    width: 263px;
+  }
+}
+
+.small-icon.topic-wirtschaft {
+    background-image: url('../img/topics/wirtschaft_small.png')
+}
+.small-icon.topic-verteidigung {
+    background-image: url('../img/topics/verteidigung_small.png')
+}
+.small-icon.topic-kultur-und-medien {
+    background-image: url('../img/topics/kultur-und-medien_small.png')
+}
+.small-icon.topic-gesundheit {
+    background-image: url('../img/topics/gesundheit_small.png')
+}
+.small-icon.topic-bildung-und-forschung {
+    background-image: url('../img/topics/bildung-und-forschung_small.png')
+}
+.small-icon.topic-andere {
+    background-image: url('../img/topics/andere_small.png')
+}
+.small-icon.topic-arbeit-und-soziales {
+    background-image: url('../img/topics/arbeit-und-soziales_small.png')
+}
+.small-icon.topic-inneres {
+    background-image: url('../img/topics/inneres_small.png')
+}
+.small-icon.topic-justiz {
+    background-image: url('../img/topics/justiz_small.png')
+}
+.small-icon.topic-umwelt {
+    background-image: url('../img/topics/umwelt_small.png')
+}
+.small-icon.topic-auswartiges {
+    background-image: url('../img/topics/auswartiges_small.png')
+}
+.small-icon.topic-verkehr {
+    background-image: url('../img/topics/verkehr_small.png')
+}
+.small-icon.topic-bau {
+    background-image: url('../img/topics/bau_small.png')
+}
+.small-icon.topic-finanzen {
+    background-image: url('../img/topics/finanzen_small.png')
+}
+.small-icon.topic-familien-senioren-frauen-und-jugend {
+    background-image: url('../img/topics/familien-senioren-frauen-und-jugend_small.png')
+}
+.small-icon.topic-entwicklung {
+    background-image: url('../img/topics/entwicklung_small.png')
+}
+.small-icon.topic-landwirtschaft {
+    background-image: url('../img/topics/landwirtschaft_small.png')
+}
+.small-icon.topic-verbraucherschutz {
+    background-image: url('../img/topics/verbraucherschutz_small.png')
+}
+
+.small-icon.jurisdiction-bund {
+    background-image: url('../img/jurisdictions/bund_small.png')
+}
+.small-icon.jurisdiction-berlin {
+    background-image: url('../img/jurisdictions/berlin_small.png')
+}
+.small-icon.jurisdiction-brandenburg {
+    background-image: url('../img/jurisdictions/brandenburg_small.png')
+}
+.small-icon.jurisdiction-nrw {
+    background-image: url('../img/jurisdictions/nrw_small.png')
+}
+.small-icon.jurisdiction-hamburg {
+    background-image: url('../img/jurisdictions/hamburg_small.png')
+}
+.small-icon.jurisdiction-rheinland-pfalz {
+    background-image: url('../img/jurisdictions/rheinland-pfalz_small.png')
+}
+.small-icon.jurisdiction-mecklenburg-vorpommern {
+    background-image: url('../img/jurisdictions/mecklenburg-vorpommern_small.png')
+}
+.small-icon.jurisdiction-saarland {
+    background-image: url('../img/jurisdictions/saarland_small.png')
+}
+.small-icon.jurisdiction-bremen {
+  background-image: url('../img/jurisdictions/bremen_small.png')
+}
+.small-icon.jurisdiction-thueringen {
+  background-image: url('../img/jurisdictions/thueringen_small.png')
+}
+.small-icon.jurisdiction-schleswig-holstein {
+  background-image: url('../img/jurisdictions/schleswig-holstein_small.png')
+}
+.small-icon.jurisdiction-sachsen-anhalt {
+  background-image: url('../img/jurisdictions/sachsen-anhalt_small.png')
+}
+.small-icon.jurisdiction-baden-wurttemberg {
+  background-image: url('../img/jurisdictions/baden-wurttemberg_small.png')
+}
+.small-icon.jurisdiction-bayern {
+  background-image: url('../img/jurisdictions/bayern_small.png')
+}
+.small-icon.jurisdiction-hessen {
+  background-image: url('../img/jurisdictions/hessen_small.png')
+}
+.small-icon.jurisdiction-niedersachsen {
+  background-image: url('../img/jurisdictions/niedersachsen_small.png')
+}
+.small-icon.jurisdiction-sachsen {
+  background-image: url('../img/jurisdictions/sachsen_small.png')
+}
+
+.frontpage-teaser h3 {
+  margin-top: -6px;
+}
+
+.col-video-7 {
+  width: 100%;
+  height: 430px;
+}
+
+@media screen and (min-width: 768px) {
+  .col-video-7 {
+    width: 669px;
+    height: 376px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .col-video-7 {
+    width: 497px;
+    height: 279px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+    .col-video-7 {
+        width: 605px;
+        height: 340px;
+    }
+}
+
+.frontpage-teaser h3 {
+    margin-top: -6px;
+}
+
+.btn-success {
+    background-color: #428bca;
+    border-color: #3A79B0;
+    color: #fff;
+}
+
+.btn-success:hover {
+    background-color: #d9edf7;
+    border-color: #DBEFFF;
+    color: #333;
+}
