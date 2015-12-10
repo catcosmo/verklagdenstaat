@@ -12,6 +12,10 @@ h1, h2, h3 {
 
 }
 
+.container {
+    margin-top: 50px;
+}
+
 .stepbox{
     background-color: #f8f8f8;
     border-radius: 5px;
